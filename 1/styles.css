@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.btn{
+    padding: 10px;
+    border: 0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+.text{
+    padding: 10px;
+    line-height: 25px;
+}
+
+.dark{
+    color-scheme: dark;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        .btn {
+            padding: 10px;
+            border: 0;
+            background-color: #1a1919;
+            border-radius: 5px;
+            margin: 10px;
+            color: #FFF;
+            cursor: pointer;
+        }
+
+        .text {
+            padding: 10px;
+            line-height: 25px;
+            color: #000;
+        }
+
+        .dark{
+            background-color: #1a1919;
+        }
+
+        .dark .text{
+            color: #FFF;
+        }
+
+        .dark .btn{
+            background-color: #f1f1f1;
+            color: #000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <button class="btn" onclick="change2()">
+        Change Theme Button
+    </button>
+
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo numquam quidem ut. Possimus, dolores! Dolor
+        consequuntur reprehenderit, atque modi cupiditate, alias molestias hic nesciunt, est corporis similique
+        perferendis ipsa cumque!
+    </p>
+
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo numquam quidem ut. Possimus, dolores! Dolor
+        consequuntur reprehenderit, atque modi cupiditate, alias molestias hic nesciunt, est corporis similique
+        perferendis ipsa cumque!
+    </p>
+
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo numquam quidem ut. Possimus, dolores! Dolor
+        consequuntur reprehenderit, atque modi cupiditate, alias molestias hic nesciunt, est corporis similique
+        perferendis ipsa cumque!
+    </p>
+
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo numquam quidem ut. Possimus, dolores! Dolor
+        consequuntur reprehenderit, atque modi cupiditate, alias molestias hic nesciunt, est corporis similique
+        perferendis ipsa cumque!
+    </p>
+
+    <script>
+        let $Main = document.querySelector('body');
+
+        function change2(){
+            $Main.classList.toggle('dark');
+        }
+    </script>
+</body>
+
+</html>
